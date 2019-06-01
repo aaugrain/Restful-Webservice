@@ -1,5 +1,7 @@
 package API;
 
+import java.beans.BeanProperty;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -25,16 +27,18 @@ public class Application {
 	 * MappingMongoConverter(mongoDbFactory, new MongoMappingContext());
 	 * converter.setTypeMapper(new DefaultMongoTypeMapper(null));
 	 */
-	@Bean
-	public MongoTemplate mongoTemplate(MongoDbFactory mongoDbFactory, MongoMappingContext context) {
+	// @Bean
+	// public MongoTemplate mongoTemplate(MongoDbFactory mongoDbFactory,
+	// MongoMappingContext context) {
 
-		MappingMongoConverter converter = new MappingMongoConverter(new DefaultDbRefResolver(mongoDbFactory), context);
-		converter.setTypeMapper(new DefaultMongoTypeMapper(null));
+	// MappingMongoConverter converter = new MappingMongoConverter(new
+	// DefaultDbRefResolver(mongoDbFactory), context);
+	// converter.setTypeMapper(new DefaultMongoTypeMapper(null));
 
-		MongoTemplate mongoTemplate = new MongoTemplate(mongoDbFactory, converter);
+	// MongoTemplate mongoTemplate = new MongoTemplate(mongoDbFactory, converter);
 
-		return mongoTemplate;
+	// return mongoTemplate;
 
-	}
+	// }
 
 }

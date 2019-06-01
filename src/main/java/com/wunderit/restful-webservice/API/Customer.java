@@ -1,7 +1,6 @@
-package customers;
+package AP;
 
 import org.springframework.data.annotation.Id;
-
 
 public class Customer {
 
@@ -11,7 +10,8 @@ public class Customer {
     public String firstName;
     public String lastName;
 
-    public Customer() {}
+    public Customer() {
+    }
 
     public Customer(String firstName, String lastName) {
         this.firstName = firstName;
@@ -20,9 +20,7 @@ public class Customer {
 
     @Override
     public String toString() {
-        return String.format(
-                "Customer[id=%s, firstName='%s', lastName='%s']",
-                id, firstName, lastName);
+        return String.format("Customer[id=%s, firstName='%s', lastName='%s']", id, firstName, lastName);
     }
 
 }
