@@ -22,7 +22,7 @@ public class ApplicationTests {
     }
     @Test
     public void sum_with3numbersko() {
-        System.out.println("Test1");
+        System.out.println("Test2");
 
         assertEquals(3, 2);
     }
