@@ -15,9 +15,15 @@ public class ApplicationTests {
     }
 
     @Test
-    public void sum_with3numbers() {
+    public void sum_with3numbersok() {
         System.out.println("Test1");
 
         assertEquals(3, 3);
+    }
+    @Test
+    public void sum_with3numbersko() {
+        System.out.println("Test1");
+
+        assertEquals(3, 2);
     }
 }
