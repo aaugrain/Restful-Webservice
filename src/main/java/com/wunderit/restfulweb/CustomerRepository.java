@@ -1,4 +1,4 @@
-package API;
+package com.wunderit.restfulweb;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 

@@ -1,4 +1,4 @@
-package API;
+package com.wunderit.restfulweb;
 
 import java.beans.BeanProperty;
 
