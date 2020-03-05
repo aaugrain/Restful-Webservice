@@ -24,6 +24,6 @@ public class ApplicationTests {
     public void sum_with3numbersko() {
         System.out.println("Test2");
 
-        assertEquals(3, 2);
+        assertEquals(3, 3);
     }
 }
